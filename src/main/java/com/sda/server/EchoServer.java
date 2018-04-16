@@ -13,7 +13,7 @@ public class EchoServer {
         //Port na ktorym startuje serwer
         int port = 4444;
         // Czas uspienia - 5 sek
-        long SLEEP_TIME = 5_000l;
+        long SLEEP_TIME = 5_000L;
         //ServerSocker - gniazdo serwera. Sluzy do przyjmowania klientow TCP
         ServerSocket serverSocket = new ServerSocket(port);
         System.out.println("Started server on port " + port);
